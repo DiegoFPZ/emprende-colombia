@@ -1,0 +1,14 @@
+ tablas y formularios orientados a ofrecer estimaciones de recursos y ayudas para emprendedores según el numero de participantes y necesidades específicas del negocio.
+
+• Diseño y construcción del Dashboard sobre información de emprendimiento
+
+Directorio de Oportunidades
+
+
+Falta de información clara sobre programas de apoyo gubernamentales o entes privados
+
+Desconocimiento de centros de capacitación o herramientas digitales que les puedan ayudar a desarrollar sus negocios.  
+
+Falta de Capital Semilla
+
+Falta de Habilidades Empresariales

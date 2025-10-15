@@ -1,0 +1,10 @@
+Cambios GIT:
+git add .
+git commit -m "SEO y otros"
+git push origin main
+
+
+cd "/c/Users/COMPUMAX/Desktop/GRUPO 5 - Proyecto Aplicativo Web"
+
+
+https://github.com/DiegoFPZ/emprende-colombia/
