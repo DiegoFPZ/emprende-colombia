@@ -49,10 +49,10 @@ emprende-colombia/
 
 ## 📋 Tareas Pendientes
 
-- [ ] Completar página de recursos
-- [ ] Desarrollar algoritmo del test emprendedor
-- [ ] Optimizar diseño responsive
-- [ ] Integrar contenido investigado
+- [ ] Completar página de recursos (Juan y Jorge)
+- [ ] Desarrollar algoritmo del test emprendedor (Jorge y Leyver)
+- [ ] Optimizar diseño responsive (Juliana y Diego)
+- [ ] Integrar contenido investigado (Diego)
 
 ## 🌐 Demo
 
