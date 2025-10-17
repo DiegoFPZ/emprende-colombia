@@ -1,6 +1,7 @@
 Cambios GIT:
+
 git add .
-git commit -m "SEO y otros"
+git commit -m "Descripción de los cambios"
 git push origin main
 
 
