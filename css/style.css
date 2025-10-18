@@ -8,23 +8,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-form{
-    background-color: #776471;
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 button{
     background-color: rgb(112, 68, 168);
     border-radius: 20px;
-}
-.boton{ 
-    background-color: #000000;
-    border-radius: 20px;
-    color: #ffffff;
-
-}
-.boton:hover{
-    background-color: rgb(112, 68, 168);
-    color: #000000;
 }
