@@ -31,22 +31,23 @@ function DescubrirEmprendedor() {
             puntaje +=3;
         }
     }
-    document.getElementById("puntajeDado").innerText = Math.round(puntaje/45*100) +"%";
+    document.getElementById("saludoPersona").innerText = "¡Hola! " + Nombres+ " " + Apellidos
+    document.getElementById("puntajeDado").innerText = "Tu nivel de emprendimiento es: " + Math.round(puntaje/45*100) +"%";
 
     if (puntaje>=15 && puntaje<22) {
-        document.getElementById("nivelDado").innerText = "Tu nivel de emprendimiento es Emprendedor potencial:"
+        document.getElementById("nivelDado").innerText = "En tu categogía, de Emprendedor potencial:"
         document.getElementById("descripcion").innerText = "Posees la motivación, pero te falta enfoque o confianza para convertir ideas en acción."
         return;
     } else if (puntaje>=22 && puntaje<30) {
-        document.getElementById("nivelDado").innerText = "Tu nivel de emprendimiento es Emprendedor en formación:"
+        document.getElementById("nivelDado").innerText = "En tu categogía, de Emprendedor en formación:"
         document.getElementById("descripcion").innerText = "Tienes iniciativa, pero necesitas estructurar mejor tus decisiones y fortalecer la constancia."
         return;
     } else if (puntaje>=30 && puntaje<38) {
-        document.getElementById("nivelDado").innerText = "Tu nivel de emprendimiento es Emprendedor estratégico en desarrollo:"
+        document.getElementById("nivelDado").innerText = "En tu categogía, de Emprendedor estratégico en desarrollo:"
         document.getElementById("descripcion").innerText = "Posees mentalidad emprendedora y planeas bien, aunque aún equilibras prudencia y acción."
         return;
     } else if (puntaje>=30 && puntaje<=45) {
-        document.getElementById("nivelDado").innerText = "Tu nivel de emprendimiento es Emprendedor consolidado e innovador:"
+        document.getElementById("nivelDado").innerText = "En tu categogía, de Emprendedor consolidado e innovador:"
         document.getElementById("descripcion").innerText = "Eres creativo, decidido y resiliente. Transformas ideas en oportunidades y lideras con visión."
         return;
     }
