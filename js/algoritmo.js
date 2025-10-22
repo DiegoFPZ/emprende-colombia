@@ -1,4 +1,6 @@
 function DescubrirEmprendedor() {
+    let Nombres = document.getElementById("nombres").value
+    let Apellidos = document.getElementById("apellidos").value
     let rp1 = parseInt(document.getElementById("Pregunta1").value);
     let rp2 = parseInt(document.getElementById("Pregunta2").value);
     let rp3 = parseInt(document.getElementById("Pregunta3").value);
@@ -31,6 +33,7 @@ function DescubrirEmprendedor() {
             puntaje +=3;
         }
     }
+    
     document.getElementById("saludoPersona").innerText = "¡Hola! " + Nombres+ " " + Apellidos
     document.getElementById("puntajeDado").innerText = "Tu nivel de emprendimiento es: " + Math.round(puntaje/45*100) +"%";
 
