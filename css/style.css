@@ -1,17 +1,44 @@
-a{
-    text-decoration: none;
-    color: white;
-
+/* =======================
+    RESET
+======================= */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+img {
+    max-width: 100%;
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+
+:root {
+  --bs-primary: #085594;    /* Tu azul */
+  --bs-primary-rgb: 48, 159, 251;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+
+.btn-primary:hover {
+  background-color: #085594 !important; /* Azul más oscuro */
+  border-color: #085594 !important;
+}
+
+
 body{
     background-color: #f0eded;
     font-family: 'Courier New', Courier, monospace;
 }
 
-button{
-    background-color: rgb(112, 68, 168);
-    border-radius: 20px;
-}
 .apoyos {
     padding: 50px 20px;
     text-align: center;
@@ -61,14 +88,14 @@ button{
 .card a {
     text-decoration: none;
     color: #fff;
-    background-color: #1e90ff;
+    background-color: #085594;
     padding: 10px 15px;
     border-radius: 8px;
     transition: background-color 0.3s ease;
 }
 
 .card a:hover {
-    background-color: #2563eb;
+    background-color: #085594;
 }
 
 .fondo-emprender h3 {
@@ -152,7 +179,7 @@ button{
 
 .caja-card a {
     display: inline-block;
-    background-color: #1e90ff;
+    background-color: #085594;
     color: #fff;
     text-decoration: none;
     padding: 10px 14px;
