@@ -29,15 +29,36 @@ ul {
 }
 
 .btn-primary:hover {
-  background-color: #085594 !important; /* Azul más oscuro */
+  background-color: #085594 !important; 
   border-color: #085594 !important;
 }
 
 
 body{
-    background-color: #f0eded;
+    background-color: #fff5f5;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.navbar-nav .nav-link {
+    transition: all 0.9s ease;
+    border-radius: 4px;
+    margin: 0 2px;
+    padding: 8px 16px !important;
+}
+
+.navbar-nav .nav-link:hover {
+    transition: all 0.9s ease;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-weight: 500;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.3);
+}
+/* recursos */
 
 .apoyos {
     padding: 50px 20px;
