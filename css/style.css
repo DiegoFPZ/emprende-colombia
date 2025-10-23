@@ -224,6 +224,7 @@ body{
 
 .test-container .card,
 .calculadora .card {
+    background-color: #dde8ff !important;
     transition: none !important;
 }
 
@@ -231,5 +232,4 @@ body{
 .calculadora .card:hover {
     transform: none !important;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-    background-color: transparent !important;
 }
