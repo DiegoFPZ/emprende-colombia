@@ -1,6 +1,10 @@
 function DescubrirEmprendedor() {
     let Nombres = document.getElementById("nombres").value
     let Apellidos = document.getElementById("apellidos").value
+    if (!Nombres || !Apellidos) {
+        alert("Por favor ingresa tu nombre y apellido");
+        return;
+    }
     let rp1 = parseInt(document.getElementById("Pregunta1").value);
     let rp2 = parseInt(document.getElementById("Pregunta2").value);
     let rp3 = parseInt(document.getElementById("Pregunta3").value);
@@ -40,20 +44,21 @@ function DescubrirEmprendedor() {
     if (puntaje>=15 && puntaje<22) {
         document.getElementById("nivelDado").innerText = "En tu categogía, de Emprendedor potencial:"
         document.getElementById("descripcion").innerText = "Posees la motivación, pero te falta enfoque o confianza para convertir ideas en acción."
-        return;
+        ;
     } else if (puntaje>=22 && puntaje<30) {
         document.getElementById("nivelDado").innerText = "En tu categogía, de Emprendedor en formación:"
         document.getElementById("descripcion").innerText = "Tienes iniciativa, pero necesitas estructurar mejor tus decisiones y fortalecer la constancia."
-        return;
+        ;
     } else if (puntaje>=30 && puntaje<38) {
         document.getElementById("nivelDado").innerText = "En tu categogía, de Emprendedor estratégico en desarrollo:"
         document.getElementById("descripcion").innerText = "Posees mentalidad emprendedora y planeas bien, aunque aún equilibras prudencia y acción."
-        return;
+        ;
     } else if (puntaje>=30 && puntaje<=45) {
         document.getElementById("nivelDado").innerText = "En tu categogía, de Emprendedor consolidado e innovador:"
         document.getElementById("descripcion").innerText = "Eres creativo, decidido y resiliente. Transformas ideas en oportunidades y lideras con visión."
-        return;
+        ;
     }
+    document.getElementById("resultados").style.display = "block";
 /* 
     for (let i = 0; i<=2; i++) {
         if (lista_preguntas[i] === 1) {

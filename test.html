@@ -39,135 +39,213 @@
                 </div>
             </div>
         </nav>
-        <div class="calculadora">
-            <h1>Descubre que tipo de emprendedor eres. </h1>
-            <p>Este es un test para evaluar tus características como Joven Emprendedor.</p>
-            <h2>Preguntas</h2>
-                <input type="text" name="" id="nombres" placeholder="Nombres">
-                <input type="text" name="" id="apellidos" placeholder="Apellidos">
-            <p>Me gusta proponer ideas nuevas que transformen productos, servicios o procesos..</p>
-            <select name="" id="Pregunta1">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <p>Busco oportunidades donde otros ven problemas.</p>
-            <select name="" id="Pregunta2">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <p>Me atrevo a probar soluciones poco convencionales si creo que pueden funcionar.</p>
-            <select name="" id="Pregunta3">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <p>Antes de emprender, defino metas claras y un plan para alcanzarlas.</p>
-            <select name="" id="Pregunta4">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <p>Analizo los recursos disponibles antes de tomar decisiones importantes.</p>
-            <select name="" id="Pregunta5">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <p>Me mantengo enfocado(a) en mis objetivos incluso cuando surgen obstáculos.</p>
-            <select name="" id="Pregunta6">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <p>Estoy dispuesto(a) a asumir riesgos calculados para hacer crecer mi negocio.</p>
-            <select name="" id="Pregunta7">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <p>Puedo mantener la calma y actuar bajo presión o incertidumbre.</p>
-            <select name="" id="Pregunta8">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <p>Si algo no sale bien, busco alternativas en lugar de rendirme.</p>
-            <select name="" id="Pregunta9">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <p>Me gusta coordinar y motivar a otros para alcanzar metas comunes.</p>
-            <select name="" id="Pregunta10">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <p>Escucho distintas opiniones antes de decidir, pero actúo con determinación.</p>
-            <select name="" id="Pregunta11">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <p>Comparto mis ideas y busco alianzas estratégicas para avanzar.</p>
-            <select name="" id="Pregunta12">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <p>Me adapto fácilmente a los cambios del mercado o de la competencia.</p>
-            <select name="" id="Pregunta13">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <p>Reinviero mis ganancias en mejorar o ampliar mi negocio.</p>
-            <select name="" id="Pregunta14">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <p>Busco aprender constantemente para fortalecer mi emprendimiento.</p>
-            <select name="" id="Pregunta15">
-                <option value="0">Elige</option>
-                <option value="1">En desacuerdo</option>
-                <option value="2">A veces</option>
-                <option value="3">De acuerdo</option>
-            </select>
-            <button onclick="DescubrirEmprendedor()">Descubre aquí</button>
-            <h2>Resultados</h2>
-            <h2><span id = "saludoPersona"></span></h2>
-            <h2><span id = "puntajeDado"></span></h2>
-            <h2><span id = "nivelDado"></span></h2>
-            <p><span id ="descripcion"></span></p>
-            <h2>Tu perfil detallado es:</h2>
-            <h2><span id ="innovador"></span></h2>
-            <p><span id ="descripcionInnovador"></span></p>
-            <h2><span id ="dePequenasEmpresas"></span></h2>
-            <p><span id ="descripciondePequenasEmpresas"></span></p>
-            <h2><span id ="enSerie"></span></h2>
-            <p><span id ="descripcionEnSerie"></span></p>
-            <h2><span id ="corporativo"></span></h2>
-            <p><span id ="descripcionCorporativo"></span></p>
-            <h2><span id ="social"></span></h2>
-            <p><span id ="descripcionSocial"></span></p>
-        </div>
+            <div class="container py-5 test-container">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bold">Descubre qué tipo de emprendedor eres</h1>
+                    <p class="lead">Este es un test para evaluar tus características como Joven Emprendedor</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-11">
+                        <div class="card shadow-sm mb-4">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Tus Datos:</h3>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" id="nombres" placeholder="Nombres">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" id="apellidos" placeholder="Apellidos">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title h5 mb-4">Responde las siguientes preguntas</h3>
+                                
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">1. Me gusta proponer ideas nuevas que transformen productos, servicios o procesos.</p>
+                                    <select class="form-select" id="Pregunta1">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+
+
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">2. Busco oportunidades donde otros ven problemas.</p>
+                                    <select class="form-select" id="Pregunta2">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">3. Me atrevo a probar soluciones poco convencionales si creo que pueden funcionar.</p>
+                                    <select class="form-select" id="Pregunta3">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">4. Antes de emprender, defino metas claras y un plan para alcanzarlas.</p>
+                                    <select class="form-select" id="Pregunta4">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">5. Analizo los recursos disponibles antes de tomar decisiones importantes.</p>
+                                    <select class="form-select" id="Pregunta5">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">6. Me mantengo enfocado(a) en mis objetivos incluso cuando surgen obstáculos.</p>
+                                    <select class="form-select" id="Pregunta6">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">7. Estoy dispuesto(a) a asumir riesgos calculados para hacer crecer mi negocio.</p>
+                                    <select class="form-select" id="Pregunta7">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">8. Puedo mantener la calma y actuar bajo presión o incertidumbre.</p>
+                                    <select class="form-select" id="Pregunta8">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">9. Si algo no sale bien, busco alternativas en lugar de rendirme.</p>
+                                    <select class="form-select" id="Pregunta9">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">10. Me gusta coordinar y motivar a otros para alcanzar metas comunes.</p>
+                                    <select class="form-select" id="Pregunta10">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">11. Escucho distintas opiniones antes de decidir, pero actúo con determinación.</p>
+                                    <select class="form-select" id="Pregunta11">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">12. Comparto mis ideas y busco alianzas estratégicas para avanzar.</p>
+                                    <select class="form-select" id="Pregunta12">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">13. Me adapto fácilmente a los cambios del mercado o de la competencia.</p>
+                                    <select class="form-select" id="Pregunta13">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">14. Reinvierto mis ganancias en mejorar o ampliar mi negocio.</p>
+                                    <select class="form-select" id="Pregunta14">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-4">
+                                    <p class="fw-semibold mb-2">15. Busco aprender constantemente para fortalecer mi emprendimiento.</p>
+                                    <select class="form-select" id="Pregunta15">
+                                        <option value="0">Elige una opción</option>
+                                        <option value="1">En desacuerdo</option>
+                                        <option value="2">A veces</option>
+                                        <option value="3">De acuerdo</option>
+                                    </select>
+                                </div>
+
+                                <div class="text-center mt-5">
+                                    <button class="btn btn-primary btn-lg px-5" onclick="DescubrirEmprendedor()">
+                                        Descubre tu perfil emprendedor
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="resultados" class="card shadow-sm mt-4" style="display: none;">
+                            <div class="card-body">
+                                <h2 class="text-center mb-4">Tus Resultados</h2>
+                                <h3 id="saludoPersona" class="h4"></h3>
+                                <h4 id="puntajeDado" class="h5 text-muted"></h4>
+                                <h4 id="nivelDado" class="h5 text-primary"></h4>
+                                <p id="descripcion" class="lead"></p>
+                                
+                                <div class="mt-4">
+                                    <h4 id="innovador" class="h5"></h4>
+                                    <p id="descripcionInnovador"></p>
+                                    
+                                    <h4 id="dePequenasEmpresas" class="h5"></h4>
+                                    <p id="descripciondePequenasEmpresas"></p>
+
+                                    <h4 id="enSerie"></h4>
+                                    <p id="descripcionEnSerie"></p>
+
+                                    <h4 id="corporativo"></h4>
+                                    <p id="descripcionCorporativo"></p>
+                                    
+                                    <h4 id="social"></h4>
+                                    <p id="descripcionSocial"></p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <footer class="bg-dark text-white py-4 mt-5">
             <div class="container">
                 <div class="row align-items-center">

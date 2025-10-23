@@ -221,3 +221,15 @@ body{
 .caja-card a:hover {
     background-color: #2563eb;
 }
+
+.test-container .card,
+.calculadora .card {
+    transition: none !important;
+}
+
+.test-container .card:hover,
+.calculadora .card:hover {
+    transform: none !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    background-color: transparent !important;
+}
