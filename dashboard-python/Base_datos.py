@@ -4,7 +4,7 @@ import numpy as np
 import seaborn as sns
 
 # 1 Cargar el dataset directamente desde GitHub (Base emprendedores)
-url = "https://raw.githubusercontent.com/DiegoFPZ/emprende-colombia/refs/heads/main/dashboard-python/data/datos_emprendedores.csv"
+url = "https://raw.githubusercontent.com/DiegoFPZ/emprende-colombia/refs/heads/main/dashboard-python/data/datos_emprendedores2.csv"
 df = pd.read_csv(url,sep=";")
 
 
